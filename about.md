@@ -6,13 +6,16 @@ title: A propos
 ## BotAlgorithme
 
 
-Botanique + Algorithmes = <span style="color: red;"><i class="fas fa-heart"></i></span>
+Botanique <span style="color: green;"><i class="fas fa-leaf"></i></span> + Algorithmes <span style="color: orange;"><i class="fas fa-code"></i></span> = <span style="color: red;"><i class="fas fa-heart"></i></span>
 
-BotAlgorithme est un projet qui vise à rendre accessible les modèles informatiques de plante. 
+**BotAlgorithme** est un projet qui vise à rendre accessible au plus grand nombre les modèles informatiques de plantes. 
 
-Nous somme convaincu que les modèle de plantes sont des outils unique pour enseigner les processus végétaux complexes. Actuellement, notre processus de prédilection est la régulation de la prise d'eau racinaire. Néamoins, nous planifions d'inclure plus de procédés et modèles dans le future.
+Nous somme convaincu que les modèle de plantes sont des **outils uniques** pour enseigner des processus végétaux complexes. Actuellement, notre processus de prédilection est la régulation de la **prise d'eau racinaire**. Néamoins, nous planifions d'inclure plus de procédés et modèles dans le future.
 
-BotAlgorithme est un projet mené par [Guillaume Lobet](www.guillaumelobet.be), en collaboration avec des collègues de L'université catholique de Louvain et du Forschungszentrum Juelich.
+
+Récemment, nos étudiant ont publié un article sur le blog Botany One détaillant leurs expériences avec les modèles de plantes. [A lire ici <i class="fal fa-external-link"></i>](https://www.botany.one/fr/2018/02/est-il-difficile-dutiliser-des-modeles-informatiques-de-plantes-demandez-nos-etudiants/)
+
+BotAlgorithme est un projet mené par [Guillaume Lobet](www.guillaumelobet.be), en collaboration avec des collègues de l'[Université catholique de Louvain](http://www.uclouvain.be) et du [Forschungszentrum Juelich](http://www.fz-juelich.de).
 
 
 

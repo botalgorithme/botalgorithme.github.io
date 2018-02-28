@@ -6,8 +6,8 @@ permalink:        pretty
 #relative_permalinks: true
 
 # http://jekyllrb.com/docs/github-pages/#project-page-url-structure
-#baseurl: https://guillaumelobet.github.io/
-baseurl: /bota/ # for local testing
+baseurl: https://botalgorithme.github.io/
+#baseurl: /bota/ # for local testing
 
 # Setup
 title:            BotAlgorithme

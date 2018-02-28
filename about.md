@@ -3,6 +3,10 @@ layout: exercices
 title: A propos
 ---
 
+## BotAlgorithme
+
+
+Botanique + Algorithmes = <span style="color: red;"><i class="fas fa-heart"></i></span>
 
 BotAlgorithme est un projet qui vise à rendre accessible les modèles informatiques de plante. 
 

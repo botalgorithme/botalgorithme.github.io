@@ -3,11 +3,13 @@ layout: exercices
 title: MARSHAL
 ---
 
-### MARSHAL
+## MARSHAL
 
 Example d'exercie pour le modèle [MARSHAL](https://plantmodelling.shinyapps.io/marshal/). Exemple créé par Valentin Couvreur et Valentine Calay (Faculté des bio-ingénieurs, UCL)
 
-Une vidéo explicative sur MARSHAL [peut être vue ici](https://youtu.be/Y_qlC08hj88).
+<span style="color: red;"><i class="fab fa-youtube"></i></span> Petite vidéo explicative sur l'emplois de MARSHAL:
+
+<div class="video-container"><iframe width="100%" src="http://www.youtube.com/embed/Y_qlC08hj88" frameborder="0" allowfullscreen></iframe></div>
 
 ### Le contexte
 

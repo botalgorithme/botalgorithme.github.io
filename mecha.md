@@ -3,7 +3,7 @@ layout: exercices
 title: MECHA
 ---
 
-### MECHA
+## MECHA
 
 Example d'exercie pour le modèle [MECHA](https://plantmodelling.shinyapps.io/mecha/). Exemple créé par Valentin Couvreur et Valentine Calay (Faculté des bio-ingénieurs, UCL)
 

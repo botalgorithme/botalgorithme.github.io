@@ -1,0 +1,18 @@
+# Build settings
+markdown: kramdown
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# http://jekyllrb.com/docs/github-pages/#project-page-url-structure
+#baseurl: https://guillaumelobet.github.io/
+baseurl: /bota/ # for local testing
+
+# Setup
+title:            BotAlgorithme
+paginate:         1
+author:
+  name:           Guillaume Lobet
+  url:            https://twitter.com/guillaumelobet
+  email:          g.lobet@fz-juelich.de

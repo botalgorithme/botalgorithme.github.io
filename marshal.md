@@ -7,6 +7,8 @@ title: MARSHAL
 
 Example d'exercie pour le modèle [MARSHAL](https://plantmodelling.shinyapps.io/marshal/). Exemple créé par Valentin Couvreur et Valentine Calay (Faculté des bio-ingénieurs, UCL)
 
+Une vidéo explicative sur MARSHAL [peut être vue ici](https://youtu.be/Y_qlC08hj88).
+
 ### Le contexte
 
 Suite au succès de vos recherches sur la perméabilité racinaire du mil, Syngenta vous engage comme consultant pour intégrer la composante « hydraulique de la racine » dans les idéotypes de soja (Glycine max). Un idéotype est une plante conceptuelle rassemblant les caractéristiques (ou traits) idéalement adaptés à une combinaison sol x climat.

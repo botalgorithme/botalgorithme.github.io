@@ -7,6 +7,11 @@ title: MECHA
 
 Example d'exercie pour le modèle [MECHA](https://plantmodelling.shinyapps.io/mecha/). Exemple créé par Valentin Couvreur et Valentine Calay (Faculté des bio-ingénieurs, UCL)
 
+
+<span style="color: red;"><i class="fab fa-youtube"></i></span> Petite vidéo explicative sur MECHA:
+
+<div class="video-container"><iframe width="100%" src="http://www.youtube.com/embed/LAHcmQ0_qxk" frameborder="0" allowfullscreen></iframe></div>
+
 ### Le contexte
 
 Vous êtes un chercheur tentant de découvrir une variété de mil plus tolérante à la sécheresse. Vous soupçonnez que les *aquaporines* (canaux à eau) sont des régulateurs clés dans l’augmentation de la disponibilité en eau pour la plante via la modification de la perméabilité racinaire. Peu de variabilité existe dans les gènes régulant l’expression des aquaporines chez les variétés de mil à haut potentiel (« V0 »). Par contre, cette variabilité existe dans la nature, et il vous est possible de croiser la variété à haut potentiel avec des variétés naturelles (« V1-4 ») afin d’importer de nouveaux gènes dans le pool existant.

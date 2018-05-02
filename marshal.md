@@ -28,6 +28,8 @@ L’évaporation du sol sous le climat aride du désert du Negev génère un pot
 
 ### Questions :
 
+- Faite tourner le modèle avec le mode "Use simplified root system"
+
 -	Pour le système racinaire par défaut, quels sont les types racinaires absorbant le plus d’eau (onglet root depth profile / radial fluxes), et quel est le type racinaire transportant le plus d’eau dans son xylème (onglet root depth profile / axial fluxes) ?
 
 -	Sous l’onglet simulations evolution / Transpiration, vous pouvez voir comment la disponibilité en eau pour la plante (considérée équivalente à sa transpiration) répond à l’environnement et aux traits racinaires. Parmi les traits *XT*, *XLL*, et *XL* (modifiés un à un), lequel est le plus prometteur pour augmenter la disponibilité en eau ? Interprétez.

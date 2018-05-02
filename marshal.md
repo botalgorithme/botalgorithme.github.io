@@ -17,9 +17,9 @@ Suite au succès de vos recherches sur la perméabilité racinaire du mil, Synge
 
 ### Les traits racinaires :
 
-Syngenta voudrait tester à priori la tolérance à la sécheresse de futures variétés de soja dont la conductivité radiale racinaire est augmentée (0.000281 au lieu de 0.000181 cm hPa-1 j) dans la zone jeune de chaque type de racines (0 -> 9 cm de l’extrémité). Ces traits sont appelés *RT* (high radial conductivity in young taproot tissue), *RLL* (high radial conductivity in young long lateral root tissue), et *RL* (high radial conductivity in young lateral root tissue).
+Syngenta voudrait tester à priori la tolérance à la sécheresse de futures variétés de soja dont la conductivité radiale racinaire est augmentée (0.000281 au lieu de 0.000181 cm hPa-1 j) dans la zone jeune de chaque type de racines (0 -> 9 cm de l’extrémité pour la *Taproot* et 0 -> 13 cm de l’extrémité pour les latérales). Ces traits sont appelés *RT* (high radial conductivity in young taproot tissue), *RLL* (high radial conductivity in young long lateral root tissue), et *RL* (high radial conductivity in young lateral root tissue).
 
-Des variétés à maturité précoce du xylème racinaire peuvent également être sélectionnées. Celles-ci ont une conductance axiale multipliée par 10, à 9 cm de la pointe de la racine. Ces traits sont appelés *XT* (high axial conductance in young taproot tissue), *XLL* (high axial conductance in young long lateral root tissue), et *XL* (high axial conductance in young lateral root tissue).
+Des variétés à maturité précoce du xylème racinaire peuvent également être sélectionnées. Celles-ci ont une conductance axiale multipliée par 10, à 9 cm (13 cm) de la pointe de la racine. Ces traits sont appelés *XT* (high axial conductance in young taproot tissue), *XLL* (high axial conductance in young long lateral root tissue), et *XL* (high axial conductance in young lateral root tissue).
 
 ### L’environnement :
 

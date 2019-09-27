@@ -5,3 +5,16 @@ footer: >
     Website created and maintained by <a href="http://www.guillaumelobet.be" target="_blank">Guillaume Lobet</a> with <span style="color: red;"><i class="fas fa-heart"></i></span> and <span style="color:#4f3130;"><i class="fas fa-coffee"></i></span>.</br> Heavily relying on <a href="https://getbootstrap.com/">Bootstrap 4.0</a> and <a href="https://fontawesome.com">Font Awesome 5</a>. </br> Hosted on <i class="fab fa-github"></i>. Source code available <a href="https://github.com/botalgorithme/botalgorithme.github.io">here</a>. 
 
 
+main:
+  water:
+    title: Eau
+    text: FR Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    link: Voir les modèles
+  carbon:
+    title: Carbone
+    text: FR Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    link: Voir les modèles
+  archi:
+    title: Architecture
+    text: FR Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    link: Voir les modèles

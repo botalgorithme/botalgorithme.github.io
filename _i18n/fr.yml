@@ -1,0 +1,24 @@
+
+site:
+  name: Botalgorithme
+  tagline: Des plantes et des maths
+  description: bla bla
+  keywords: plant, physiologie, modele
+
+footer: >
+    Website créé et maintenu <a href="http://www.guillaumelobet.be" target="_blank">Guillaume Lobet</a> avec <span style="color: red;"><i class="fas fa-heart"></i></span> et <span style="color:#4f3130;"><i class="fas fa-coffee"></i></span>.</br> Basé sur <a href="https://getbootstrap.com/">Bootstrap 4.0</a> et <a href="https://fontawesome.com">Font Awesome 5</a>. </br> Hébergé sur <i class="fab fa-github"></i>. Code source disponible sur <a href="https://github.com/botalgorithme/botalgorithme.github.io">here</a>. 
+
+
+main:
+  water:
+    title: Eau
+    text: FR Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    link: Voir les modèles
+  carbon:
+    title: Carbone
+    text: FR Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    link: Voir les modèles
+  archi:
+    title: Architecture
+    text: FR Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    link: Voir les modèles

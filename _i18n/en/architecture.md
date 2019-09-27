@@ -1,0 +1,2 @@
+
+{% include architecture-en.svg %}

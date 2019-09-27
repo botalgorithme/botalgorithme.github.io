@@ -11,49 +11,29 @@ An Elbowpatched theme
 
 -->
 
-<html lang="en">
+<html lang="{{ site.lang }}">
 <head>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114958226-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-114958226-1');
-</script>
-
+  
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>BotAlgorithme</title>
+  <title>{{site.name}}</title>
 
   <!-- Stylesheets -->
-  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/fontawesome-all.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}public/css/custom.css">
-  <!--link rel="stylesheet" href="{{ site.baseurl }}public/css/albertine.css"-->
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/fontawesome-all.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/custom.css">
 
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
-  <!-- Javascript -->
-  <!--script src="{{ site.baseurl }}public/js/isotope.pkgd.min.js"></script-->
-  <!--script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>  
   <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
   <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-  <script type='text/javascript' src='{{ site.baseurl }}public/js/fontawesome-all.js'></script>
+  <script type='text/javascript' src='{{ site.baseurl }}/public/js/fontawesome-all.js'></script>
   <script type='text/javascript' src='//npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script>
 
 
@@ -65,26 +45,21 @@ An Elbowpatched theme
   <!-- HEADER -->
   <!-- ==================== -->
   <header>
-
+    
 {% include nav.html %}
     
   </header>
+
 
   <!-- ==================== -->
   <!-- SECTION -->
   <!-- ==================== -->
   <div class="container mt-5">
-
     <div class="row">
-      <div class="col-xs-12 col-md-8">
-
-{{ content | markdownify }}
-
-  </div>
-
+      <div class="col-6">
+        {{ content | markdownify }}
+      </div>
     </div>
-
-
   </div>
 
 
@@ -101,6 +76,10 @@ An Elbowpatched theme
       {{site.data.personal.footer}}
     </div>
   </footer>
+
+
+
+
 
 </body>
 </html>

@@ -11,31 +11,22 @@ An Elbowpatched theme
 
 -->
 
-<html lang="en">
+<html lang="">
 <head>
+
+  
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>BotAlgorithme</title>
+  <title></title>
 
   <!-- Stylesheets -->
   <link rel="shortcut icon" href="/bota/public/favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   <link rel="stylesheet" href="/bota/public/css/fontawesome-all.css">
   <link rel="stylesheet" href="/bota/public/css/custom.css">
-  <!--link rel="stylesheet" href="/bota/public/css/albertine.css"-->
 
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
-  <!-- Javascript -->
-  <!--script src="/bota/public/js/isotope.pkgd.min.js"></script-->
-  <!--script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -54,55 +45,88 @@ An Elbowpatched theme
   <!-- HEADER -->
   <!-- ==================== -->
   <header>
-
+    
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse text-right" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="/bota/">BotAlgorithme <i class="fal fa-leaf mr-2"></i></a>
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="/bota/">La plante et l'eau<i class="fal fa-tint ml-1"></i></a>
-          </li>          
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Exemples d'exercices</a>
+        
+        <a class="navbar-brand" href="/bota/">BotAlgorithme : <span style="color: lightgreen;"><i class="fal fa-leaf"></i></span> + <span style="color: orange;"><i class="fal fa-code"></i></span> = <span style="color: red;"><i class="fal fa-heart"></i></span></a>
+
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">        
+         
+          <li class="nav-item dropdown  ml-2">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Water<span style="color: lightblue;"><i class="fal fa-tint ml-1 mr-1"></i></span></a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="/bota/mecha">MECHA</a>
-              <a class="dropdown-item" href="/bota/marshal">MARSHAL</a>
+              <a class="dropdown-item" href="/bota/water/water">The models</a>
+              <div class="dropdown-divider"></div>
+              <h5 class="dropdown-header">Exercices</h5>
+              <a class="dropdown-item" href="/bota//water/mecha">MECHA</a>
+              <a class="dropdown-item" href="/bota//water/marshal">MARSHAL</a>
+              <a class="dropdown-item" href="/bota//water/tardieu_davies">Tardieu-Davies</a>
+              <a class="dropdown-item" href="/bota//architecture/hydropatterning">Hydropatterning</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/bota/about">A propos <i class="fal fa-plus-circle ml-1"></i></a>
+
+          <li class="nav-item dropdown  ml-2">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Carbon<span style="color: orange;"><i class="fal fa-sun ml-1 mr-1"></i></span></a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/bota/carbon/carbon">The models</a>
+              <div class="dropdown-divider"></div>
+              <h5 class="dropdown-header">Exercices</h5>
+              <a class="dropdown-item" href="/bota/carbon/Farqhuar">Farqhuar</a>
+            </div>
           </li>
+
+          <li class="nav-item dropdown  ml-2">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Architecture<span style="color: lightgreen;"><i class="fab fa-pagelines ml-1 mr-1"></i></span></a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/bota/architecture/architecture">The models</a>
+              <div class="dropdown-divider"></div>
+              <h5 class="dropdown-header">Exercices</h5>
+              <a class="dropdown-item" href="/bota/architecture/crootbox">CRootbox</a>
+              <a class="dropdown-item" href="/bota/architecture/granar">GRANAR</a>
+              <a class="dropdown-item" href="/bota/architecture/hydropatterning">Hydropatterning</a>
+            </div>
+          </li>          
+          
+          <li class="nav-item  ml-2">
+            <a class="nav-link" href="/bota/about">About <span style="color: lightgreen;"><i class="fal fa-plus-circle ml-1"></i></span></a>
+
+          </li>
+
         </ul>
+
+
+                
+
       </div>
     </nav>
     
   </header>
 
+
   <!-- ==================== -->
   <!-- SECTION -->
   <!-- ==================== -->
   <div class="container mt-5">
-
     <div class="row">
-      <div class="col-xs-12 col-md-8">
+      <div class="col-6">
+        <h2 id="botalgorithme">BotAlgorithme</h2>
 
-<h2 id="botalgorithme">BotAlgorithme</h2>
+<p>Botany <span style="color: green;"><i class="fas fa-leaf"></i></span> + Algorithms <span style="color: orange;"><i class="fas fa-code"></i></span> = <span style="color: red;"><i class="fas fa-heart"></i></span></p>
 
-<p>Botanique + Algorithmes = <span style="color: red;"><i class="fas fa-heart"></i></span></p>
+<p><strong>BotAlgorithme</strong> is a project that aims at making plant computational models accessible to an audience as large as possible.  We are convinced that plant models are unique tools for teaching complex plant processes. Currently, our preferred process is the regulation of the root water intake.</p>
 
-<p>BotAlgorithme est un projet qui vise à rendre accessible les modèles informatiques de plante.</p>
+<p>Recently, our students published an <a href="https://www.botany.one/fr/2018/02/est-il-difficile-dutiliser-des-modeles-informatiques-de-plantes-demandez-nos-etudiants/">article on the Botany One blog</a> detailing their experiences with plant models. We also wrote about the use of plant models in the classroom for the <a href="https://ecrlife.org/creating-mutualism-between-research-and-teaching/">ECRLife blog from eLife</a></p>
 
-<p>Nous somme convaincu que les modèle de plantes sont des outils unique pour enseigner les processus végétaux complexes. Actuellement, notre processus de prédilection est la régulation de la prise d’eau racinaire. Néamoins, nous planifions d’inclure plus de procédés et modèles dans le future.</p>
-
-<p>BotAlgorithme est un projet mené par <a href="www.guillaumelobet.be">Guillaume Lobet</a>, en collaboration avec des collègues de L’université catholique de Louvain et du Forschungszentrum Juelich.</p>
+<p>BotAlgorithme is a project led by <a href="www.guillaumelobet.be">Guillaume Lobet</a>, in collaboration with colleagues from the<a href="http://www.uclouvain.be">UCLouvain</a> and the<a href="http://www.fz-juelich.de">Forschungszentrum Juelich</a>.</p>
 
 <hr />
 
-<h3 id="en-savoir-plus-sur-les-différents-modèles">En savoir plus sur les différents modèles</h3>
+<h3 id="more-about-the-models-presented-here">More about the models presented here</h3>
 
 <div class="mb-5">
 </div>
@@ -112,8 +136,8 @@ An Elbowpatched theme
 <br />
 Couvreur V, Faget M, Lobet G, Javaux M, Chaumont F, Draye X</p>
 
-<p><a class="btn btn-outline-primary btn-sm mb-1" href="http://biorxiv.org/content/early/2017/06/07/147314.full.pdf" target="_blank"><i class="fal fa-newspaper"></i> Voir l’article</a>
-<a class="btn btn-outline-success btn-sm mb-1" href="https://mecharoot.github.io/" target="_blank"><i class="fal fa-link"></i> Voir le site web</a></p>
+<p><a class="btn btn-outline-primary btn-sm mb-1" href="http://biorxiv.org/content/early/2017/06/07/147314.full.pdf" target="_blank"><i class="fal fa-newspaper"></i> Article</a>
+<a class="btn btn-outline-success btn-sm mb-1" href="https://mecharoot.github.io/" target="_blank"><i class="fal fa-link"></i> Website</a></p>
 
 <hr />
 
@@ -122,8 +146,8 @@ Couvreur V, Faget M, Lobet G, Javaux M, Chaumont F, Draye X</p>
 <br />
 Schnepf A, Leitner D, Landl M, Lobet G, Hieu Mai T, Morandage S, Sheng C, Zoerner M, Vanderborght J, Vereecken H</p>
 
-<p><a class="btn btn-outline-primary btn-sm mb-1" href="https://paperpile.com/shared/Y3OVEr" target="_blank"><i class="fal fa-newspaper"></i> Voir l’article</a>
-<a class="btn btn-outline-success btn-sm mb-1" href="https://plant-root-soil-interactions-modelling.github.io/CRootBox/" target="_blank"><i class="fal fa-link"></i> Voir le site web</a></p>
+<p><a class="btn btn-outline-primary btn-sm mb-1" href="https://paperpile.com/shared/Y3OVEr" target="_blank"><i class="fal fa-newspaper"></i> Article</a>
+<a class="btn btn-outline-success btn-sm mb-1" href="https://plant-root-soil-interactions-modelling.github.io/CRootBox/" target="_blank"><i class="fal fa-link"></i> Website</a></p>
 
 <hr />
 
@@ -132,14 +156,45 @@ Schnepf A, Leitner D, Landl M, Lobet G, Hieu Mai T, Morandage S, Sheng C, Zoerne
 <br />
 Meunier F, Draye X, Vanderborght J, Javaux M, Couvreur V.</p>
 
-<p><a class="btn btn-outline-primary btn-sm mb-1" href="https://paperpile.com/shared/pqeFaT" target="_blank"><i class="fal fa-newspaper"></i> Voir l’article</a></p>
+<p><a class="btn btn-outline-primary btn-sm mb-1" href="https://paperpile.com/shared/pqeFaT" target="_blank"><i class="fal fa-newspaper"></i> Article</a>
+<a class="btn btn-outline-success btn-sm mb-1" href="https://marshal-root.github.io/" target="_blank"><i class="fal fa-link"></i> Website</a></p>
+
+<hr />
+
+<h4 id="granar">GRANAR</h4>
+
+<p><strong>GRANAR, a new computational tool to better understand the functional importance of root anatomy</strong>
+<br />
+Heymans A, Couvreur V, LaRue T, Garcia AP, Lobet G.</p>
+
+<p><a class="btn btn-outline-primary btn-sm mb-1" href="https://www.doi.org/10.1101/645036" target="_blank"><i class="fal fa-newspaper"></i> Article</a>
+<a class="btn btn-outline-success btn-sm mb-1" href="https://granar.github.io" target="_blank"><i class="fal fa-link"></i> Website</a></p>
+
+<hr />
+
+<h4 id="hydropatterning-model">Hydropatterning model</h4>
+
+<p><strong>Growth is required for perception of water availability to pattern root branches in plants.</strong>
+<br />
+Robbins NE 2nd, Dinneny JR.</p>
+
+<p><a class="btn btn-outline-primary btn-sm mb-1" href="https://paperpile.com/app/p/0d9a6c8c-ec10-017d-883d-73672668caed" target="_blank"><i class="fal fa-newspaper"></i> Article</a>
+<a class="btn btn-outline-success btn-sm mb-1" href="https://nrobbins.shinyapps.io/20171008_hydropatterning_app/" target="_blank"><i class="fal fa-link"></i> Website</a></p>
+
+<hr />
+
+<h4 id="tardieu-davies-model">Tardieu-Davies model</h4>
+
+<p><strong>Modelling the coordination of the controls of stomatal aperture, transpiration, leaf growth, and abscisic acid: update and extension of the Tardieu–Davies model</strong>
+<br />
+François Tardieu, Thierry Simonneau, Boris Parent</p>
+
+<p><a class="btn btn-outline-primary btn-sm mb-1" href="https://academic.oup.com/jxb/article/66/8/2227/498302" target="_blank"><i class="fal fa-newspaper"></i> Article</a>
+<a class="btn btn-outline-success btn-sm mb-1" href="https://plantmodelling.shinyapps.io/tardieu_davies/" target="_blank"><i class="fal fa-link"></i> Website</a></p>
 
 
-  </div>
-
+      </div>
     </div>
-
-
   </div>
 
 
@@ -153,10 +208,14 @@ Meunier F, Draye X, Vanderborght J, Javaux M, Couvreur V.</p>
     <hr>
 
     <div class="col-10 col-sm-6 mx-auto text-center mb-5">
-      Website created and maintained by guillaume Lobet with <span style="color: red;"><i class="fas fa-heart"></i></span> and <span style="color:#4f3130;"><i class="fas fa-coffee"></i></span>. Heavily relying on <a href="https://getbootstrap.com/">Bootstrap 4.0</a> and <a href="https://fontawesome.com">Font Awesome 5</a>. Hosted on <i class="fab fa-github"></i>. Source code available <a href="https://github.com/guillaumelobet/guillaumelobet.github.io">here</a>. 
+      Website created and maintained by <a href="http://www.guillaumelobet.be" target="_blank">Guillaume Lobet</a> with <span style="color: red;"><i class="fas fa-heart"></i></span> and <span style="color:#4f3130;"><i class="fas fa-coffee"></i></span>.</br> Heavily relying on <a href="https://getbootstrap.com/">Bootstrap 4.0</a> and <a href="https://fontawesome.com">Font Awesome 5</a>. </br> Hosted on <i class="fab fa-github"></i>. Source code available <a href="https://github.com/botalgorithme/botalgorithme.github.io">here</a>. 
 
     </div>
   </footer>
+
+
+
+
 
 </body>
 </html>
